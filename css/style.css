@@ -1,0 +1,233 @@
+html{
+    font-family: poppins;
+    color: #59CA15;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+header{
+    min-height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7))
+    ,
+    url(../images/game\ wl.jpg);
+     
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-top: 20px;
+    height: 150px;
+    
+}
+.main-nav{
+    list-style: none;
+}
+.main-nav li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.main-nav li a{
+    color: #59CA15;
+   text-decoration: none;
+   border: solid 2px #59CA15;
+   padding: 8px 20px;
+   border-radius: 10px 50px 10px 50px;
+}
+.main-nav li a:hover{
+    color: #333;
+   text-decoration: none;
+   background-color: #59CA15;
+}
+.gamer{
+    position: absolute;
+    top: 40%;
+}
+
+h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    word-spacing: 3px;
+    margin-bottom: 30px;
+}
+.btn{
+    border: solid 1px #59CA15;
+    margin-right: 15px;
+    padding: 8px 20px;
+    border-radius: 50px 50px 10px 10px;
+    
+    color: #59CA15;
+    text-decoration: none;
+}
+.btn:hover{
+    color: #333;
+    background-color: #59CA15;
+}
+
+section{
+    padding: 40px 0px;
+    background-color: #05090C;
+}
+h2{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 400;
+    word-spacing: 3px;
+    margin-bottom: 15px;
+}
+hr{
+    
+    border: dotted 3px #05090C;
+    background-color: #59CA15;
+
+} 
+
+p{
+    text-align: center;
+    margin: 10px 80px 40px 80px;
+}
+.p1{
+    
+    margin: 10px;
+    padding: 10px;
+  
+}
+.feature{
+   text-align: center;
+}
+.feature {
+    text-align: center;
+
+}
+.feature i{
+    
+    color: #59CA15;
+    font-size: 50px;
+}
+.gamezone{
+    padding: 0px;
+    margin: -2px;
+    background-color: black;
+    overflow: hidden;
+
+}
+.gamezone img{
+    width: 100%;
+    opacity: .6;
+    transform:scale(1.1);
+    transition: 0.5s ;
+    
+}
+.gamezone img:hover{    
+    opacity: 1;
+    transform: scale(1);
+}  
+
+h2 img{
+    width: 50%;
+    opacity: .6;
+    transform:scale(1.1);
+    transition: 0.5s ;
+    
+}
+h3{
+    text-align: center;
+}
+
+h2 img:hover{
+    opacity: 1;
+    transform: scale(1);
+}  
+
+.city img{
+    width: 100%;
+}
+.mo{
+    width: 100%;
+    color: #59CA15;
+    
+}
+
+form{
+    padding-top: 50px;
+}
+
+
+label{
+    margin-bottom: 7px;
+
+}
+
+input[type=text] ,
+input[type=email] ,
+ select , textarea{
+    background-color: #05090C;
+    color: #59CA15;
+    margin-bottom: 7px;
+    width: 90%;
+    padding: 7px;
+    border: groove 7px #59CA15;
+    border-radius: 30px 10px 30px 10px;
+
+}
+input[type=checkbox]{
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+button{
+    padding: 10px 30px;
+    background-color:#05090C ;
+    color: #59CA15;
+    font-size: 1.2rem;
+    border:solid 3px #59CA15;
+    border-radius: 30px;
+    margin-left: 100px;
+}
+
+button:hover{
+     background-color: #59CA15;
+     color: #05090C;
+}
+
+footer{
+    padding: 40px 0px;
+    background-color: #59CA15;
+    color: #05090C;
+}
+footer p{
+    text-align: center;
+    margin-top: 20px;
+    color: #05090C; 
+}
+.footer-nav , .social-nav{
+    list-style: none;
+    display: flex;
+    
+}
+.social-nav{
+    float: right;
+
+}
+.footer-nav li , .social-nav li{
+    margin-right: 20px;
+    
+}
+.footer-nav li a , .social-nav li a{
+   text-decoration: none;
+   color: #05090C;    
+}
+.footer-nav li a:hover, .social-nav li a:hover{
+   text-decoration: underline;
+   color: #05090C;    
+}
+.momo{
+    font-size: 20px;
+}
+
